@@ -5,6 +5,6 @@ describe('print', () => {
 		expect(typeof print()).toBe('string')
 	})
   it('should return a specific value', () => {
-    expect(print()).toBe('Hola Mundo!!')
+    expect(print()).toBe('Hello World!!')
   })
 })
